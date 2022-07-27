@@ -98,6 +98,7 @@
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
+    position: relative;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1284,3 +1285,7 @@
     opacity:0;
 }
 
+.triangle-bottom:after,
+.triangle-up:after{
+    display:none !important;
+}
