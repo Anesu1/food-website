@@ -59,7 +59,7 @@ a, button { display: inline-block; text-decoration: none; color: inherit; line-h
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover { text-decoration: none; color: #EF0031;}
+a b.light-color:hover { text-decoration: none; color: #019C9A;}
 
 b {  font-weight: 700; }
 
@@ -78,7 +78,7 @@ button { outline: 0; border: 0; background: none; cursor: pointer; }
 b.max-bold { font-weight: 700; }
 
 input:focus,
-textarea:focus { outline-color: #EF0031; }
+textarea:focus { outline-color: #019C9A; }
 
 ::placeholder { color: #aaa; font-weight: 700; }
 
@@ -746,7 +746,7 @@ section {
 }
 
 .color-primary {
-        color: #EF0031;
+        color: #019C9A;
 }
 
 .color-black { color: #111; }
@@ -773,7 +773,7 @@ section {
 
 .bg-191 { background: #191919; }
 
-.bg-primary { background: #EF0031 !important; }
+.bg-primary { background: #019C9A !important; }
 
 .bg-2-white { background: #F2F2F2; }
 
@@ -938,11 +938,11 @@ section {
         background: #ddd;
 }
 
-.brdr-b-primary{ border-bottom: 2px solid #EF0031; }
+.brdr-b-primary{ border-bottom: 2px solid #019C9A; }
 
-.brdr-primary-2{ border: 2px solid #EF0031; }
+.brdr-primary-2{ border: 2px solid #019C9A; }
 
-.brdr-primary-3{ border: 3px solid #EF0031; }
+.brdr-primary-3{ border: 3px solid #019C9A; }
 
 .brdr-style-1{  position: absolute;left: 0; right: 0; bottom: 0; ; z-index: 1; height: 8px; }
 .brdr-style-1:after{ content:''; display: block; height: 60%; background: #78BE21;  z-index: 1; }
@@ -965,7 +965,7 @@ section {
         right: 0;
         bottom: 0;
         height: 2px;
-        background: #EF0031;
+        background: #019C9A;
         -webkit-transition: all .2s;
         transition: all .2s;
         -webkit-transform-origin: right;
@@ -984,11 +984,11 @@ section {
 
 /* BUTTON STYLING */
 
-.btn-brdr-primary { text-align: center; height: 45px; line-height: 43px; border: 1px solid #EF0031; color: #EF0031; border-radius: 2px; }
+.btn-brdr-primary { text-align: center; height: 45px; line-height: 43px; border: 1px solid #019C9A; color: #019C9A; border-radius: 2px; }
 
-.btn-brdr-primary:hover { background: #EF0031; color: #FFFFFF; }
+.btn-brdr-primary:hover { background: #019C9A; color: #FFFFFF; }
 
-.btn-primaryc { position: relative; text-align: center; height: 55px; line-height: 50px; background: #EF0031; color: #fff; border-radius: 3px; z-index: 1; }
+.btn-primaryc { position: relative; text-align: center; height: 55px; line-height: 50px; background: #019C9A; color: #fff; border-radius: 3px; z-index: 1; }
 
 .btn-primaryc.secondary{ background: #118522; }
 
@@ -1006,18 +1006,18 @@ section {
 
 .btn-brdr-grey { text-align: center; height: 45px; line-height: 43px; border: 1px solid #ccc; border-radius: 2px; }
 
-.btn-brdr-grey:hover {border: 1px solid #EF0031;background: #EF0031;color: #000; }
+.btn-brdr-grey:hover {border: 1px solid #019C9A;background: #019C9A;color: #000; }
 
-.btn-fill-primary { text-align: center; height: 55px; line-height: 53px; border: 1px solid #EF0031; background: #EF0031; border-radius: 2px; color: #FFFFFF; }
+.btn-fill-primary { text-align: center; height: 55px; line-height: 53px; border: 1px solid #019C9A; background: #019C9A; border-radius: 2px; color: #FFFFFF; }
 
 .btn-fill-primary.secondary {  height: 55px; line-height: 53px; border: 1px solid #78BE21; background: #78BE21; }
 
-.btn-fill-primary:hover { background: none; color: #EF0031; }
+.btn-fill-primary:hover { background: none; color: #019C9A; }
 .btn-fill-primary.secondary:hover { background: none; color: #78BE21; }
 
 .btn-fill-grey { text-align: center; height: 45px; line-height: 43px; border: 1px solid #ccc; background: #ccc; border-radius: 2px; color: #111; }
 
-.btn-fill-grey:hover { border: 1px solid #EF0031; background: none; color: #000; }
+.btn-fill-grey:hover { border: 1px solid #019C9A; background: none; color: #000; }
 
 .btn-b-lg { font-size: 1em; height: 55px; line-height: 55px; }
 
@@ -1035,7 +1035,7 @@ section {
         display: block;
         width: 100%;
         padding: 0 65px 0 20px;
-        border: 1px solid #EF0031;
+        border: 1px solid #019C9A;
 }
 
 .nwsltr-primary-1 button {
@@ -1045,7 +1045,7 @@ section {
         right: 1px;
         width: 45px;
         text-align: center;
-        background: #EF0031;
+        background: #019C9A;
         color: #000;
 }
 
@@ -1073,7 +1073,7 @@ section {
 .form-style-1 textarea:focus,
 .form-style-1 input:focus,
 .form-style-1 textarea:active,
-.form-style-1 input:active{ border-bottom: 3px solid #EF0031; }
+.form-style-1 input:active{ border-bottom: 3px solid #019C9A; }
 
 .placeholder-1 ::-webkit-input-placeholder { font-style: italic; color: #aaa; font-size: .9em;  }
 .placeholder-1 ::-moz-placeholder { font-style: italic; color: #aaa; font-size: .9em; }
@@ -1140,7 +1140,7 @@ section {
 
 .form-brdr-b-grey input:focus,
 .form-brdr-b-grey textarea:focus {
-        border-bottom: 1px solid #EF0031;
+        border-bottom: 1px solid #019C9A;
 }
 
 .form-brdr-b input,
@@ -1278,7 +1278,7 @@ ul.selecton{ text-align: center;  font-size: 1.2em;  }
 ul.selecton li > a{ padding: 15px 30px;   }
 
 ul.selecton li:hover a,
-ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color: #FFFFFF;  }
+ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #019C9A; color: #FFFFFF;  }
 
 .food-menu{ display: none;  }
 .food-menu.active{ opacity: 0; display: block!important; animation: full-opacity-anim .3s forwards ; }
@@ -1381,7 +1381,7 @@ ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color:
         position: absolute;
         top: 50%;
         right: 0;
-        color: #EF0031;
+        color: #019C9A;
         width: 50px;
         text-align: center;
         -webkit-transform: translateY(-50%);
@@ -1430,13 +1430,13 @@ ul.selecton li a.active{ border-radius: 3px 3px 0 0; background: #EF0031; color:
         left: 0;
         width: 80px;
         height: 5px;
-        background: #EF0031;
+        background: #019C9A;
         z-index: 1;
 }
 
 .quote-primary {
         padding: 10px 20px;
-        border-left: 2px solid #EF0031;
+        border-left: 2px solid #019C9A;
 }
 
 .hot-news {
@@ -2660,7 +2660,7 @@ ul.icon li a{ padding: 10px;  }
 }
 
 .list-a-hvr-primary > li > a:hover {
-        background: #EF0031;
+        background: #019C9A;
         color: #fff;
 }
 
