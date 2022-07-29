@@ -381,7 +381,7 @@ function onScroll(event){
       }
       
       function fadeOut(){
-        setInterval(loader, 3000);
+        setInterval(loader, 1000);
         
       }
       

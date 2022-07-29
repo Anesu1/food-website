@@ -93,7 +93,7 @@
   
   .billboard {
     height: 100vh;
-    background:linear-gradient(to bottom, #0000006d,#00000053),  url("../images/banner.jpg");
+    background:linear-gradient(to bottom, #00000020,#00000021),  url("../images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: -webkit-box;
@@ -864,7 +864,8 @@
   
   @media (min-width: 768px) {
     header {
-      padding-top: 2%;
+      padding-top: 1%;
+      padding-bottom:2%;
     }
   }
   
@@ -881,6 +882,7 @@
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     z-index: 3;
+    object-fit: contain;
   }
   
   @media (min-width: 992px) {
@@ -1097,126 +1099,12 @@
   }
   
   .billboard h1, .billboard p {
-    font-family: 'Cera Pro';
+    font-family: 'Montserrat';
     font-weight: 500;
   }
   
-  .about .container .row .col-md-6 h2 {
-    font-family: 'Cera Pro';
-    font-weight: 900;
-  }
-  
-  .about .container .row .col-md-6 h3 {
-    font-family: 'Cera Pro';
-    font-weight: 700;
-  }
-  
-  .about .container .row .col-md-6 p {
-    font-size: 15px;
-  }
-  
-  .products .container h2 {
-    font-family: 'Cera Pro';
-    font-weight: 900;
-  }
-  
-  .services {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    position: relative;
-  }
-  
-  @media (min-width: 768px) {
-    .services {
-      padding-right: 0;
-    }
-  }
-  
-  .services h2 {
-    font-family: 'Cera Pro';
-    font-weight: 900;
-    text-transform: uppercase;
-  }
-  
-  .services .italic {
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-  }
-  
-  .services .arrows {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-  
-  @media (min-width: 768px) {
-    .services .arrows {
-      position: absolute;
-      top: 60%;
-      right: 15%;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .services .arrows {
-      right: 25%;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .services .arrows {
-      right: 38%;
-    }
-  }
-  
-  .services .arrows .arrow {
-    height: 50px;
-    width: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background: #FFFFFF;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    border-radius: 50%;
-    border: 1px solid #EDEEEF;
-    cursor: pointer;
-  }
-  
-  .services .arrows .arrow:first-child {
-    margin-right: 10px;
-  }
-  
-  .services .arrows .arrow:last-child {
-    margin-left: 10px;
-  }
-  
-  .services .arrows .arrow:hover {
-    border: none;
-    -webkit-box-shadow: 0px 3px 11px rgba(59, 80, 90, 0.05);
-            box-shadow: 0px 3px 11px rgba(59, 80, 90, 0.05);
-  }
-  
-  .services .arrows .arrow img {
-    width: 15px;
-  }
-  
   .projects .container h2.headings {
-    font-family: 'Cera Pro';
+    font-family: 'Montserrat';
     font-weight: 900;
   }
   
@@ -1288,4 +1176,19 @@
 .triangle-bottom:after,
 .triangle-up:after{
     display:none !important;
+}
+
+#ingredients ul{
+  list-style-type: disc !important;
+  /* padding-left:30px; */
+  color:#000000;
+   /* padding-left: 1em !important;
+  margin-left: 1em; */
+}
+#ingredients ul li{
+  height: 5px; 
+  list-style-type: disc !important;
+}
+#ingredients .row{
+  margin-bottom:100px;
 }
