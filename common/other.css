@@ -93,7 +93,7 @@
   
   .billboard {
     height: 100vh;
-    background:linear-gradient(to bottom, #00000020,#00000021),  url("../images/banner.jpg");
+    background:linear-gradient(to bottom, #00000020,#00000021),  url("../images/burger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: -webkit-box;
@@ -130,7 +130,7 @@
   
   .billboard img {
     background-color: white;
-    width: 70%;
+    width: 30%;
     padding: 20px;
     -o-object-fit: cover;
        object-fit: cover;
